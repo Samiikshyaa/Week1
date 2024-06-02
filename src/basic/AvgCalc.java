@@ -8,8 +8,8 @@ public class AvgCalc {
 	public static void main(String[] args) {
 		List<Integer> numbers = new ArrayList<>();
 		Scanner sc = new Scanner(System.in);
-		int total = 0, avg = 0, sum =0;
-		
+		int total = 0, sum =0;
+		double avg = 0;
 		System.out.println("Enter the size of total number ");
 		total = sc.nextInt();
 		
@@ -23,7 +23,7 @@ public class AvgCalc {
 			sum += number;
 		}
 		
-		avg = sum / numbers.size();
+		avg = sum / (float)total;
 		System.out.println("The average is: "+ avg);
 		
 	}
