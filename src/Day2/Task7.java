@@ -1,6 +1,10 @@
 package Day2;
 
 public class Task7 {
+//    Write a program to find the special characters in the string. Special characters includes !@#$
+//
+
+
     public static void main(String[] args) {
         int count = 0;
         String s = "%^&*()”:>? sur$$$tttt@#$%";

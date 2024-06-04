@@ -3,6 +3,7 @@ package Day2;
 import java.awt.*;
 
 public class Task6UpperLower {
+//    Write a program to find the number of uppercase and lower case characters in a string.
     public static void main(String[] args) {
         String s = "Hello World";
         int lcount =0, ucount=0;

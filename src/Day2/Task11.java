@@ -3,6 +3,8 @@ package Day2;
 import java.util.Arrays;
 
 public class Task11 {
+
+//    Write a program to take a string input and sort it alphabetically.
     public static void main(String[] args) {
         String[] s = new String[]{"Samikshya","Timalsina","Hello"};
         for (int i = 0; i<s.length; i++) {

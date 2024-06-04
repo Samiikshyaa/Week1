@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Task910 {
+//    Write a program to take an array of strings and display the length of strings in an array.
     public static void main(String[] args) {
         String[] str = new String[] {"Samikshya","Hello","world", "Animals"};
         int[] a = new int [str.length];
@@ -14,6 +15,12 @@ public class Task910 {
         }
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));
+
+        for(int k=0; k<str.length; k++){
+            for(int j=k+1; j<str.length; j++){
+
+            }
+        }
 
         String[] asc = str.clone();
         Arrays.sort(asc, Comparator.comparingInt(String::length));

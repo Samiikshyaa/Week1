@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task8 {
+//    Write a program to take string input and convert it to uppercase and lowercase with out
+//    using the String function. [ USE ASCII Concept ]
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string: ");
