@@ -17,5 +17,29 @@ public class Test {
         }
 
         System.out.println(Arrays.toString(wlist));
+
+
+
+        class Scratch {
+            StringBuilder name = new StringBuilder("");
+
+            public static void main(String[] args) throws InterruptedException {
+
+                Scratch scratch = new Scratch();
+                Thread threadA = new Thread(() -> {
+                    scratch.name.append("threada");
+                });
+
+                Thread thread = new Thread(() -> {
+                    scratch.name.append("thread");
+                });
+
+                threadA.start();
+                thread.start();
+                Thread.sleep(300);
+
+                System.out.println(scratch.name);
+            }
+        }
     }
 }

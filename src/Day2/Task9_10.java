@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Task910 {
+public class Task9_10 {
 //    Write a program to take an array of strings and display the length of strings in an array.
     public static void main(String[] args) {
         String[] str = new String[] {"Samikshya","Hello","world", "Animals"};
