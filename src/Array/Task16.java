@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class Task16 {
     public static void main(String[] args) {
-        int[] nums = {1,3,6,4,9,7};
+        int[] nums = {1,3,6,4,9,7,100};
 
+        System.out.println("The original array is: "+Arrays.toString(nums));
         for (int i = 0; i < nums.length-1; i++) {
             for (int j = 0; j < nums.length-1-i; j++) {
                 if(nums[j]>nums[j+1]){
@@ -15,6 +16,7 @@ public class Task16 {
                 }
             }
         }
-        System.out.println("The sorted array is:"+Arrays.toString(nums));
+        ;
+        System.out.println("The sorted ascending order array is: "+Arrays.toString(nums));
     }
 }

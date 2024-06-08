@@ -16,11 +16,6 @@ public class Task9_10 {
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));
 
-        for(int k=0; k<str.length; k++){
-            for(int j=k+1; j<str.length; j++){
-
-            }
-        }
 
         String[] asc = str.clone();
         Arrays.sort(asc, Comparator.comparingInt(String::length));
