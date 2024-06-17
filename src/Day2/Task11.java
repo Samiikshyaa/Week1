@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 public class Task11 {
 
-//    Write a program to take a string input and sort it alphabetically.
+    //    Write a program to take a string input and sort it alphabetically.
     public static void main(String[] args) {
-        String[] s = new String[]{"Samikshya","Timalsina","Hello"};
-        for (int i = 0; i<s.length; i++) {
-            for(int j = i+1; j<s.length; j++){
-                if(s[i].compareToIgnoreCase(s[j])>0){
-                    String temp = s[i];
-                    s[i] = s[j];
-                    s[j] = temp;
+        String[] s = new String[]{"apple", "banana", "orange", "watermelon", "mango", "litchi"};
+        for (int i = 0; i < s.length; i++) {
+            for (int j = 0; j < s.length - 1 - i; j++) {
+                if (s[j].compareToIgnoreCase(s[j + 1]) > 0) {
+                    String temp = s[j];
+                    s[j] = s[j + 1];
+                    s[j + 1] = temp;
                 }
             }
         }

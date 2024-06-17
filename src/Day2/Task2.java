@@ -4,8 +4,7 @@ package Day2;
 import java.util.Scanner;
 
 public class Task2 {
-//    Write a program to take two string as input and check whether they are equal or not (Try
-//                                                                                                 both equals and ignore case)
+//    Write a program to take two string as input and check whether they are equal or not (Try both equals and ignore case)
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

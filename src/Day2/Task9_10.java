@@ -26,5 +26,20 @@ public class Task9_10 {
         Arrays.sort(dec, Comparator.comparingInt(String::length).reversed());
         System.out.println("Descending order ");
         System.out.println(Arrays.toString(dec));
+
+
+        String temp = "OK";
+        for(String s : str) {
+            for (int i = 0; i < str.length - 1; i++) {
+                for (int j = 0; j < str.length-i-1; j++) {
+                    if (str[j].length() < str[j + 1].length()) {
+                        temp = str[j];
+                        str[j] = str[j + 1];
+                        str[j + 1] = temp;
+                    }
+                }
+            }
+        }
+        System.out.println(Arrays.toString(str));
     }
 }

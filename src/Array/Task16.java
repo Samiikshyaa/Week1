@@ -17,6 +17,6 @@ public class Task16 {
             }
         }
         ;
-        System.out.println("The sorted ascending order array is: "+Arrays.toString(nums));
+        System.out.println("The sorted ascending order  array is: "+Arrays.toString(nums));
     }
 }
