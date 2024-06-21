@@ -15,10 +15,7 @@ public class Test {
             wlist[0] = s1;
             wlist[1] = s;
         }
-
         System.out.println(Arrays.toString(wlist));
-
-
 
         class Scratch {
             StringBuilder name = new StringBuilder("");
