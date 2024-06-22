@@ -21,8 +21,6 @@ public class Task32 {
             System.out.println("Not equal length.");
         }
     }
-
-
     static boolean check(String s1, String s2) {
         boolean flag = true;
         for (int i = 0; i < s1.length(); i++) {

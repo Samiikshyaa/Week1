@@ -7,11 +7,6 @@ public class Task34 {
 
         String s = new String(charArray);
         System.out.println(s);
-//        StringBuffer sb = new StringBuffer();
 
-//        for (char ch : charArray){
-//            sb.append(ch);
-//        }
-//        System.out.println(sb);
     }
 }
