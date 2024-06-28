@@ -1,5 +1,7 @@
 package Day2;
 
+import java.io.Serializable;
+
 public class Task17 {
 //    Write a Java program to count how many times the substring 'life' is present anywhere in a given string. Counting can also happen for the substring 'li?e', any character instead of 'f'.
     static boolean matchpattern(String a){
@@ -10,11 +12,10 @@ public class Task17 {
     }
     public static void main(String[] args) {
         int count = 0;
-        String s = "Life is a li?e. It is a beautiful life! live lire";
+        String s = "Life is a li?e. It is a beautiful life! live lire.";
         String sub = "life";
-
         for(int i = 0; i <= s.length()-sub.length(); i++){
-//            System.out.println(s.substring(i, i +sub.length()).toLowerCase());
+            System.out.println(s.substring(i, i +sub.length()).toLowerCase());
             if(matchpattern(s.substring(i, i +sub.length()).toLowerCase())){
                 count ++;
             }
