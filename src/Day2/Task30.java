@@ -8,7 +8,7 @@ public class Task30 {
 
     public static void main(String[] args) {
         String str = "Hello, World!";
-        System.out.printf("{}",String.valueOf(str.codePointAt(0)));
+        System.out.println(String.valueOf(str.codePointAt(0)));
         System.out.println(Arrays.toString(str.getBytes(StandardCharsets.UTF_8)));
     }
 }

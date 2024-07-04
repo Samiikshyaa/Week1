@@ -3,7 +3,7 @@ package Day2;
 import java.util.Arrays;
 
 public class Task40 {
-//    Write a Java program to get the contents of a given string as a character array.
+    //    Write a Java program to get the contents of a given string as a character array.
     public static void main(String[] args) {
         String s = "Hello world!";
         char[] c = new char[s.length()];
