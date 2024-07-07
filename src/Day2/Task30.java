@@ -12,3 +12,4 @@ public class Task30 {
         System.out.println(Arrays.toString(str.getBytes(StandardCharsets.UTF_8)));
     }
 }
+
