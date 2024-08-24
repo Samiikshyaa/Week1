@@ -20,6 +20,7 @@ public class Task2 {
             System.out.println("The strings are unequal ");
         }
 
+        System.out.println(a==b);//it compares the addresses in the memory
 
         //      Using compareToIgnorecase
         System.out.println(a.compareToIgnoreCase(b));
