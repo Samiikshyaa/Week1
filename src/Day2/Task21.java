@@ -10,7 +10,8 @@ public class Task21 {
         for (int i = 0; i < str.length(); i++) {
                 if (count != 3){
                     count++;
-                    System.out.println(str.charAt(i));
+                    System.out.println(i +" = "+str.charAt(i));
+
                     sb.append(str.charAt(i));
                 }else {
                     count =0;

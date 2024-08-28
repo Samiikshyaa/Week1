@@ -1,6 +1,6 @@
 package Day2;
 
-public class Task22 {
+public class  Task22 {
 //    Write a Java program to return a new string using every character of even positions from a given string.
     public static void main(String[] args) {
         String str = "Hello miss Samikshya";
