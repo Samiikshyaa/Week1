@@ -10,8 +10,9 @@ public class TAsk57 {
         String string = "Saamikshyaas".toLowerCase();
 
 
-//        List<Map.Entry<Character, Long>> l = string.chars().mapToObj(y -> (char)y).collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
-//                .entrySet().stream().sorted((s1,s2)->s2.getValue().compareTo(s1.getValue())).collect(Collectors.toList());
+//        List<Map.Entry<Character, Long>> l = string.chars().mapToObj(y -> (char)y)
+//        .collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
+//        .entrySet().stream().sorted((s1,s2)->s2.getValue().compareTo(s1.getValue())).collect(Collectors.toList());
 //        System.out.println(l.get(1).getKey());
 
         Map<Character, Integer> characterMap = new LinkedHashMap<>();

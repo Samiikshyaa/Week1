@@ -26,10 +26,10 @@ public class Task35 {
 
 
 //        ================OR=============================
-//        if (fs.endsWith(s)) {
-//            System.out.println("yes");
-//        } else {
-//            System.out.println("no");
-//        }
+        if (fs.endsWith(s)) {
+            System.out.println("yes");
+        } else {
+            System.out.println("no");
+        }
     }
 }

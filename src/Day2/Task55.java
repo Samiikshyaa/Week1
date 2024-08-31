@@ -12,6 +12,7 @@ public class Task55 {
         for(int i = 0; i < s.length(); i++ ){
             for (int j = i; j <= s.length() ; j++) {
                 a = (s.substring(i,j));
+                System.out.println(a);
                 boolean b = palindrome(a);
                 if (b == true){
                     palindromes.add(a);

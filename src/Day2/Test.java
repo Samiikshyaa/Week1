@@ -4,25 +4,27 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Test {
-    public static void main(String[] args) {
-        String s = "zebra";
-        String s1 = "apple" ;
-        String[] wlist = new String[2];
-        if(s.compareToIgnoreCase(s1)<0){
-            wlist[0]=s;
-            wlist[1] = s1;
-        } else {
-            wlist[0] = s1;
-            wlist[1] = s;
-        }
-        System.out.println(Arrays.toString(wlist));
+//    public static void main(String[] args) {
+//        String s = "zebra";
+//        String s1 = "apple" ;
+//        String[] wlist = new String[2];
+//        if(s.compareToIgnoreCase(s1)<0){
+//            wlist[0]=s;
+//            wlist[1] = s1;
+//        } else {
+//            wlist[0] = s1;
+//            wlist[1] = s;
+//        }
+//        System.out.println(Arrays.toString(wlist));
 
-        class Scratch {
             StringBuilder name = new StringBuilder("");
 
-            public static void main(String[] args) throws InterruptedException {
+    private Test() {
+    }
 
-                Scratch scratch = new Scratch();
+    public static void main(String[] args) throws InterruptedException {
+
+                Test scratch = new Test();
                 Thread threadA = new Thread(() -> {
                     scratch.name.append("threada");
                 });
@@ -38,5 +40,3 @@ public class Test {
                 System.out.println(scratch.name);
             }
         }
-    }
-}

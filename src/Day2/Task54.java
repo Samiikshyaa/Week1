@@ -8,7 +8,7 @@ public class Task54 {
         System.out.println(s);
         System.out.println(s.length());
         if(Character.isWhitespace(s.charAt(0)) || Character.isWhitespace(s.charAt(s.length()-1))){
-            for (int i = 0; i < s.length()-2; i++){
+            for (int i = 1; i < s.length()-1; i++){
                 sb.append(s.charAt(i+1));
             }
         }
